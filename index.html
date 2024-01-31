@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Repo Project</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+    <body>
+        <header class="head">
+            <div class="head__heading">
+                <h1 class="head__title">Github Public Repositories</h1>
+            </div>
+            <div class="head__description">
+                <p class="head__text">Enter Github username to list Repositories of user.</p>
+                <input class="head__input" id="username" placeholder="Enter username"/>
+            </div>
+        </header>
+
+        <main class="github">
+            <section class="github__profile"></section>
+            <section class="github__repo">
+                <div class="github__icon">
+                    <i class="bi bi-github" style="font-size: 18rem; color: grey;"></i>
+                </div>
+            </section>
+            <section class="github__pages">
+                <ul class="github__pageNumber"></ul>
+            </section>
+        </main>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.head__title{
+    margin: 0;
+    padding: 2rem 1rem;
+    background: #022050;
+    color: white;
+}
+
+.head__description {
+    margin: 2.5rem 1rem;
+}
+
+.head__input {
+    padding: .5rem 1rem;
+    width: 12rem;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font: inherit;
+}
+
+.github__icon {
+    text-align: center;
+    margin: 4rem auto;
+}
+
+.github__profile {
+    margin: 1rem 2rem;
+    padding: 1rem 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.github__image {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.github__link, .github__repos > a {
+    color: #1D38ED;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.github__repos {
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 0 1rem;
+}
+
+.github__repos > h2 {
+    color: #033077;
+}
+
+.github__description {
+    font-size: 1.12rem;
+    margin: 0;
+    padding: .5rem 0;
+}
+
+.github__language {
+    margin: 2rem 0 1rem;
+    color:#022050;
+    font-weight: bold;
+}
+
+.github__pageNumber {
+    margin: 3rem 5rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.github__pageNumber > li > a {
+    color: #1D38ED;
+    font-size: .9rem;
+    font-weight: bold;
+}
